@@ -1,0 +1,142 @@
+
+ROM used:   16990/32768 (52%)
+            16990/32768 (52%) including unused fragments
+
+            4.2 Average locations per line
+            8.6 Average locations per statement
+
+RAM used:   228/1536 (15%) at main() level
+            249/1536 (16%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 2694  1882  95  main.c
+    8     0   0  main.h
+  844     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18F4520.h
+  456   100   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c
+----- -----
+ 4002  1982 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   0    1   1121 10.1  @delay_ms2
+0     74   0    3    760  4.5  lcd_read_byte
+0     82   0    2    262  3.7  lcd_read_nibble
+0     62   0    1    399  2.4  lcd_send_nibble
+0     70   0    3    415  3.7  lcd_send_byte
+0    124   0    6    852  6.2  lcd_init
+0     34   0    4    208  6.3  lcd_gotoxy
+0     80   0    1    354  4.7  lcd_putc
+0     10   0    0             @PUTCHARI_BIU_1
+0   1670   5    5  11186  7.5  MAIN
+0     10   0    0    979 10.0  @const773
+0     32   0    2    150  5.1  @PSTRINGC_655
+0     12   0    0    556  7.5  @const778
+0      8   0    0    556  7.5  @const779
+0     12   0    0    510 10.6  @const780
+0     12   0    0   1146  9.9  @const781
+0      8   0    0     44  1.9  @const782
+0     14   0    0    176  4.3  @const783
+0     10   0    0             @const784
+0     10   0    0   1040  7.9  @const786
+0     12   0    0     80  3.0  @const788
+0      8   0    0             @const791
+0     14   0    0   1100  9.0  @const793
+0     12   0    0     78  2.8  @const796
+0    456   1    6   1792  6.0  pazartesi1
+0     12   0    0     59  1.8  @const797
+0     10   0    0     78  2.7  @const799
+0      6   0    0             @const800
+0     16   0    0    760  4.5  @const802
+0     14   0    0    262  3.7  @const804
+0      8   0    0    415  3.7  @const807
+0     34   0    1    277  3.3  pazartesi2
+0    456   1    6   1812  6.4  sali1
+0     12   0    0    354  4.7  @const808
+0      8   0    0    267  6.8  @const810
+0      6   0    0     95  1.9  @const811
+0     16   0    0    104  2.0  @const814
+0     14   0    0    414  5.0  @const816
+0      8   0    0    176  5.6  @const819
+0     34   0    1    277  3.3  sali2
+0    456   1    6   1812  6.4  carsamba1
+0     12   0    0    437  2.4  @const820
+0     12   0    0    186  3.3  @const822
+0      6   0    0     66  2.5  @const823
+0     16   0    0             @const826
+0     14   0    0             @const828
+0      8   0    0    174  4.4  @const831
+0     34   0    1    277  3.3  carsamba2
+0    456   1    6   1812  6.4  persembe1
+0     12   0    0     32  1.0  @const832
+0     12   0    0    134  2.8  @const834
+0      6   0    0    207  3.3  @const835
+0     16   0    0    147  3.0  @const838
+0     14   0    0    226  3.6  @const840
+0      8   0    0  10405  3.0  @const843
+0     34   0    1    277  3.3  persembe2
+0    456   1    6   1812  6.4  cuma1
+0     12   0    0    352  3.3  @const844
+0      8   0    0    352  3.3  @const846
+0      6   0    0    352  3.3  @const847
+0     16   0    0    352  3.3  @const850
+0     14   0    0    352  3.3  @const852
+0      8   0    0    352  3.3  @const855
+0     34   0    1    277  3.3  cuma2
+0    456   1    6   1812  6.4  cumartesi1
+0     12   0    0    352  3.3  @const856
+0     12   0    0   7128  6.0  @const858
+0      6   0    0             @const859
+0     16   0    0             @const862
+0     14   0    0    664  3.8  @const864
+0      8   0    0   6119  4.6  @const867
+0     34   0    1    277  3.3  cumartesi2
+0    456   1    6   1812  6.4  pazar1
+0     12   0    0             @const868
+0      8   0    0             @const870
+0      6   0    0             @const871
+0     16   0    0    527  5.2  @const874
+0     14   0    0    527  5.2  @const876
+0      8   0    0    527  5.2  @const879
+0     34   0    1    277  3.3  pazar2
+0    486   1    2   3760  6.9  clock
+0     40   0    3             @DIV88
+0    170   1    6             @PRINTF_D0_655
+0    170   1    6             @PRINTF_D_655
+0   8004  24   18  57773  7.5  sifreleme
+0    418   1    2   2144  5.9  gun
+0      6   0    0             @const909
+0     10   0    0             @const910
+0      6   0    0             @const911
+0     10   0    0             @const912
+0     10   0    0             @const913
+0      6   0    0             @const914
+0     10   0    0             @const915
+0      6   0    0             @const916
+0    584   2    2   3910  6.9  clock2
+0    120   0    1    831  4.3  harf
+0    618   2   16   3915  5.8  kontrol
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               75
+    Statements              1982
+    Comments                673
+    Volume (V)              218217
+    Difficulty (D)          360.7
+    Effort to implement (E) 78716013
+    Time to implement (T)   1214 hours, 45 minutes
+    Est Delivered Bugs (B)  61
+    Cyclomatic Complexity   464
+    Maintainability (MI)    25
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  16986  15778  
+
+
+

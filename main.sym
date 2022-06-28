@@ -1,0 +1,355 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-086 sifre
+087     dene
+088-089 zaman
+08A-08B bugun
+08C-08D ptesibas
+08E-08F ptesibit
+090-091 salibas
+092-093 salibit
+094-095 carbas
+096-097 carbit
+098-099 perbas
+09A-09B perbit
+09C-09D cumabas
+09E-09F cumabit
+0A0-0A1 ctesibas
+0A2-0A3 ctesibit
+0A4-0A5 pazarbas
+0A6-0A7 pazarbit
+0A8-0A9 ptesibas2
+0AA-0AB ptesibit2
+0AC-0AD salibas2
+0AE-0AF salibit2
+0B0-0B1 carbas2
+0B2-0B3 carbit2
+0B4-0B5 perbas2
+0B6-0B7 perbit2
+0B8-0B9 cumabas2
+0BA-0BB cumabit2
+0BC-0BD ctesibas2
+0BE-0BF ctesibit2
+0C0-0C1 pazarbas2
+0C2-0C3 pazarbit2
+0C4     key1
+0C5     key2
+0C6     key3
+0C7     key4
+0C8     key5
+0C9     key6
+0CA     key7
+0CB     key8
+0CC     key9
+0CD     key10
+0CE     key11
+0CF     key12
+0D0     key13
+0D1     key14
+0D2     i
+0D3     j
+0D4     saat
+0D5     saat1
+0D6     dakika
+0D7     dakika1
+0D8     c1
+0D9     c2
+0DA     f
+0DB     yan
+0DC     t
+0DD-0DE @sprintf_string
+0DF     MAIN.x
+0E0     MAIN.data
+0E1     pazartesi1.a
+0E1     cuma2.a
+0E1     cuma1.a
+0E1     kontrol.knt
+0E1     pazartesi2.a
+0E1     cumartesi1.a
+0E1     carsamba1.a
+0E1     persembe1.a
+0E1     pazar1.a
+0E1     pazar2.a
+0E1     clock2.k
+0E1     cumartesi2.a
+0E1     persembe2.a
+0E1     carsamba2.a
+0E1     sali2.a
+0E1     sali1.a
+0E1     gun.k
+0E1     lcd_init.i
+0E1     MAIN.@SCRATCH1
+0E2     sali1.x
+0E2     cumartesi1.x
+0E2     cuma1.x
+0E2     pazar1.x
+0E2     kontrol.knt
+0E2-0E5 lcd_init.LCD_INIT_STRING
+0E2     persembe1.x
+0E2     carsamba1.x
+0E2     pazartesi1.x
+0E2     MAIN.@SCRATCH2
+0E2     gun.@SCRATCH1
+0E2     clock2.@SCRATCH1
+0E3     cumartesi1.y
+0E3     pazar1.y
+0E3     cuma1.y
+0E3     kontrol.knt
+0E3     carsamba1.y
+0E3     sali1.y
+0E3     persembe1.y
+0E3     pazartesi1.y
+0E3     MAIN.@SCRATCH3
+0E4     kontrol.knt
+0E4     clock.b
+0E4     sifreleme.v
+0E4     @PSTRINGC_655.@SCRATCH1
+0E4     pazartesi1.@SCRATCH1
+0E4     sali1.@SCRATCH1
+0E4     carsamba1.@SCRATCH1
+0E4     persembe1.@SCRATCH1
+0E4     cuma1.@SCRATCH1
+0E4     cumartesi1.@SCRATCH1
+0E4     pazar1.@SCRATCH1
+0E5     @PRINTF_D_655.P1
+0E5     sifreleme.z
+0E5     kontrol.knt
+0E5     @PRINTF_D0_655.P1
+0E5     @PSTRINGC_655.@SCRATCH2
+0E5     pazartesi1.@SCRATCH2
+0E5     sali1.@SCRATCH2
+0E5     carsamba1.@SCRATCH2
+0E5     persembe1.@SCRATCH2
+0E5     cuma1.@SCRATCH2
+0E5     cumartesi1.@SCRATCH2
+0E5     pazar1.@SCRATCH2
+0E5     clock.@SCRATCH1
+0E6     kontrol.knt
+0E6     @PRINTF_D0_655.P1
+0E6     sifreleme.kap
+0E6     @PRINTF_D_655.P1
+0E6     lcd_init.@SCRATCH1
+0E6     pazartesi1.@SCRATCH3
+0E6     sali1.@SCRATCH3
+0E6     carsamba1.@SCRATCH3
+0E6     persembe1.@SCRATCH3
+0E6     cuma1.@SCRATCH3
+0E6     cumartesi1.@SCRATCH3
+0E6     pazar1.@SCRATCH3
+0E7     kontrol.knt
+0E7     sifreleme.kap
+0E7     @PRINTF_D0_655.@SCRATCH1
+0E7     @PRINTF_D_655.@SCRATCH1
+0E8     sifreleme.kap
+0E8     kontrol.knt
+0E8     @PRINTF_D0_655.@SCRATCH2
+0E8     @PRINTF_D_655.@SCRATCH2
+0E9     sifreleme.kap
+0E9     kontrol.knt
+0E9     @PRINTF_D0_655.@SCRATCH3
+0E9     @PRINTF_D_655.@SCRATCH3
+0EA     sifreleme.kap
+0EA     kontrol.knt
+0EA     @PRINTF_D0_655.@SCRATCH4
+0EA     @PRINTF_D_655.@SCRATCH4
+0EB     sifreleme.kap
+0EB     kontrol.knt
+0EB     lcd_putc.c
+0EC     sifreleme.kap
+0EC     kontrol.knt
+0EC     lcd_gotoxy.x
+0EC     @delay_ms2.P1
+0ED     kontrol.knt
+0ED     lcd_gotoxy.y
+0ED     sifreleme.kap
+0EE     kontrol.knt
+0EE     sifreleme.kap
+0EE     lcd_gotoxy.address
+0EF     sifreleme.kap
+0EF     lcd_gotoxy.@SCRATCH1
+0EF     kontrol.@SCRATCH1
+0F0     lcd_send_byte.address
+0F0     sifreleme.kap
+0F0     kontrol.@SCRATCH2
+0F1     lcd_send_byte.n
+0F1     sifreleme.kap
+0F2     sifreleme.kap
+0F2     lcd_read_byte.low
+0F2     lcd_send_byte.@SCRATCH1
+0F3     lcd_read_byte.high
+0F3     lcd_send_nibble.n
+0F3     sifreleme.kap
+0F4     lcd_read_nibble.n
+0F4     lcd_read_byte.@SCRATCH1
+0F4     sifreleme.@SCRATCH1
+0F5     harf.e
+0F5     lcd_read_nibble.@SCRATCH1
+0F5     sifreleme.@SCRATCH2
+0F6     @DIV88.P1
+0F7     @DIV88.P1
+0F8     @DIV88.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  @const773.call
+00000E  @const778.call
+00001A  @const779.call
+000022  @const780.call
+00002E  @const781.call
+00003A  @const782.call
+000042  @const783.call
+000050  @const784.call
+00005A  @const786.call
+000064  @const788.call
+000070  @const791.call
+000078  @const793.call
+000086  @const796.call
+000092  @const797.call
+00009E  @const799.call
+0000A8  @const800.call
+0000AE  @const802.call
+0000BE  @const804.call
+0000CC  @const807.call
+0000D4  @const808.call
+0000E0  @const810.call
+0000E8  @const811.call
+0000EE  @const814.call
+0000FE  @const816.call
+00010C  @const819.call
+000114  @const820.call
+000120  @const822.call
+00012C  @const823.call
+000132  @const826.call
+000142  @const828.call
+000150  @const831.call
+000158  @const832.call
+000164  @const834.call
+000170  @const835.call
+000176  @const838.call
+000186  @const840.call
+000194  @const843.call
+00019C  @const844.call
+0001A8  @const846.call
+0001B0  @const847.call
+0001B6  @const850.call
+0001C6  @const852.call
+0001D4  @const855.call
+0001DC  @const856.call
+0001E8  @const858.call
+0001F4  @const859.call
+0001FA  @const862.call
+00020A  @const864.call
+000218  @const867.call
+000220  @const868.call
+00022C  @const870.call
+000234  @const871.call
+00023A  @const874.call
+00024A  @const876.call
+000258  @const879.call
+000260  @const909.call
+000266  @const910.call
+000270  @const911.call
+000276  @const912.call
+000280  @const913.call
+00028A  @const914.call
+000290  @const915.call
+00029A  @const916.call
+0002A0  @delay_ms2
+0002C8  lcd_send_nibble
+000306  lcd_read_nibble
+000358  lcd_read_byte
+0003A2  lcd_send_byte
+0003E8  lcd_init
+000464  lcd_gotoxy
+000486  lcd_putc
+0004D6  @PSTRINGC_655
+0004F6  @DIV88
+00051E  @PRINTF_D0_655
+0005C8  @PRINTF_D_655
+000672  clock
+000858  harf
+0008D0  sifreleme
+002814  pazartesi1
+0029DC  sali2
+0029FE  sali1
+002BC6  carsamba2
+002BE8  carsamba1
+002DB0  persembe2
+002DD2  persembe1
+002F9A  cuma2
+002FBC  cuma1
+003184  cumartesi2
+0031A6  cumartesi1
+00336E  pazar2
+003390  pazar1
+003558  pazartesi2
+00357A  gun
+00371C  clock2
+003964  kontrol
+003BCE  @PUTCHARI_BIU_1
+003BD8  MAIN
+003BD8  @cinit1
+003C0E  @cinit2
+1542  tekrar3
+1637  tekrar5
+172C  tekrar7
+1821  tekrar9
+1916  tekrar11
+1A0B  tekrar13
+
+Project Directory:
+    C:\Users\Fatih\Desktop\VERICI SON YUKLENEN\
+
+Project Files:
+    main.c                                                  [16-Þub-22 08:39  CRC=78F1DDED]
+    main.h                                                  [09-Þub-22 15:37  CRC=00000000]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18F4520.h  [08-Eyl-15 15:16  CRC=82A02265]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\lcd.c      [19-Eyl-13 16:38  CRC=D1A6378A]
+
+Source signature=9EDE6F66
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=A142
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F4520
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
